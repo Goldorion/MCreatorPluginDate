@@ -1,0 +1,21 @@
+{
+  "message0": "Create a Date named %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "dateName",
+	  "text": "default",
+      "check": "String"
+    }
+  ],
+  "inputsInline": false,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 320,
+  "mcreator": {
+    "toolbox_id": "date",
+	"fields": [
+      "dateName"
+    ]
+  }
+}

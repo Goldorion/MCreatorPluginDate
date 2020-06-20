@@ -1,0 +1,20 @@
+{
+  "message0": "Get the date from %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "dateName",
+	  "text": "default",
+      "check": "String"
+    }
+  ],
+  "inputsInline": false,
+  "output": "String",
+  "colour": "%{BKY_TEXTS_HUE}",
+  "mcreator": {
+    "toolbox_id": "date",
+	"fields": [
+      "dateName"
+    ]
+  }
+}

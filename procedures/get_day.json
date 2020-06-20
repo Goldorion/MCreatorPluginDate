@@ -1,0 +1,20 @@
+{
+  "message0": "Get the current day (in number) from %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "dateName",
+	  "text": "default",
+      "check": "String"
+    }
+  ],
+  "inputsInline": false,
+  "output": "Number",
+  "colour": "%{BKY_MATH_HUE}",
+  "mcreator": {
+    "toolbox_id": "date",
+	"fields": [
+      "dateName"
+    ]
+  }
+}

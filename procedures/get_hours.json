@@ -1,0 +1,23 @@
+{
+  "message0": "Get the current hour from %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "dateName",
+	  "text": "default",
+      "check": "String"
+    }
+  ],
+  "inputsInline": false,
+  "output": "Number",
+  "colour": "%{BKY_MATH_HUE}",
+  "mcreator": {
+    "toolbox_id": "date",
+	"toolbox_init": [
+      "<value name=\"indexName\"><block type=\"text\"><field name=\"TEXT\">name</field></block></value>"
+    ],
+	"fields": [
+      "dateName"
+    ]
+  }
+}

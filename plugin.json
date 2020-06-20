@@ -1,0 +1,10 @@
+{
+  "id": "date",
+  "minversion": 202000300000,
+  "info": {
+    "name": "Date",
+    "description": "Add Date blocks to procedures",
+    "author": "Goldorion",
+    "version": 1.0
+  }
+}
